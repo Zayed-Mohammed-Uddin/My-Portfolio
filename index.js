@@ -125,8 +125,9 @@ $("html").niceScroll({
     cursorborderradius: "6px", // border radius in pixel for cursor
     scrollspeed: 60, // scrolling speed
     mousescrollstep: 40, // scrolling speed with mouse wheel (pixel)
+    horizrailenabled:false
 });
-
+$("html").css({"overflow-x":"hidden"});
 // fakeloader initialization
 $(document).ready(function () {
     $.fakeLoader({
