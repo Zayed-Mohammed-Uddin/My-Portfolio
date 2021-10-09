@@ -119,15 +119,11 @@ if (element__btn___2) {
     $(document).ready(
         function () {
             $("body").niceScroll({
-                cursorcolor: "hsl(250, 69%, 61%)",
                 cursorwidth: "10px",
-                cursorborder: "0px solid hsl(250, 69%, 61%)",
                 scrollspeed: 60,
                 autohidemode: true,
-                background: '#fff',
+                background: 'transparent',
                 hidecursordelay: 400,
-                cursorfixedheight: false,
-                cursorminheight: 20,
                 enablekeyboard: true,
                 horizrailenabled: true,
                 bouncescroll: false,
@@ -135,7 +131,7 @@ if (element__btn___2) {
                 iframeautoresize: true,
                 touchbehavior: false,
                 zindex: 999,
-                overflowy:false
+                overflowx:false
             });
         }
     );
