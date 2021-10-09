@@ -120,11 +120,11 @@ if (element__btn___2) {
         function () {
             $("body").niceScroll({
                 cursorcolor: "hsl(250, 69%, 61%)",
-                cursorwidth: "12px",
+                cursorwidth: "10px",
                 cursorborder: "0px solid hsl(250, 69%, 61%)",
                 scrollspeed: 60,
                 autohidemode: true,
-                background: 'hsl(250, 69%, 61%)',
+                background: '#ddd',
                 hidecursordelay: 400,
                 cursorfixedheight: false,
                 cursorminheight: 20,
