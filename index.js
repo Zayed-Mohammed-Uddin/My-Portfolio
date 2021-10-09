@@ -115,26 +115,30 @@ if (element__btn___2) {
 // BLOCK SWITCHING END
 
 // SCROLLDOWN
-$(function () {
-    $("html").niceScroll();
-});
-$("html").niceScroll({
-    cursorcolor: "hsl(250, 69%, 61%)", // change cursor color in hex
-    cursorwidth: "5px", // cursor width in pixel (you can also write "5px")
-    cursorborder: "1px solid hsl(250, 69%, 61%)", // css definition for cursor border
-    cursorborderradius: "6px", // border radius in pixel for cursor
-    scrollspeed: 60, // scrolling speed
-    mousescrollstep: 40, // scrolling speed with mouse wheel (pixel)
-    horizrailenabled: false,
-    emulatetouch: false, // enable cursor-drag scrolling like touch devices in desktop computer
-    hwacceleration: true,
-    enabletranslate3d: true, // nicescroll can use css translate to scroll content
-    enablemousewheel: true, // nicescroll can manage mouse wheel events
-    enablekeyboard: true, // nicescroll can manage keyboard events
-    smoothscroll: true
-});
-$("html").css({"overflow-x":"hidden"});
-$("html").css({"overflow-y":"hidden"});
+(function ($) {
+    $(document).ready(
+        function () {
+            $("body").niceScroll({
+                cursorcolor: "#2ecc71",
+                cursorwidth: "12px",
+                cursorborder: "0px solid #000",
+                scrollspeed: 60,
+                autohidemode: true,
+                background: '#ddd',
+                hidecursordelay: 400,
+                cursorfixedheight: false,
+                cursorminheight: 20,
+                enablekeyboard: true,
+                horizrailenabled: true,
+                bouncescroll: false,
+                smoothscroll: true,
+                iframeautoresize: true,
+                touchbehavior: false,
+                zindex: 999
+            });
+        }
+    );
+})(jQuery);
 // fakeloader initialization
 $(document).ready(function () {
     $.fakeLoader({
