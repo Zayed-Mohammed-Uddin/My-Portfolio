@@ -124,7 +124,7 @@ $("html").niceScroll({
     cursorborder: "1px solid hsl(250, 69%, 61%)", // css definition for cursor border
     cursorborderradius: "6px", // border radius in pixel for cursor
     scrollspeed: 60, // scrolling speed
-    mousescrollstep: 35, // scrolling speed with mouse wheel (pixel)
+    mousescrollstep: 40, // scrolling speed with mouse wheel (pixel)
 });
 
 // fakeloader initialization
