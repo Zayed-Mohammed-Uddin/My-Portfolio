@@ -115,27 +115,27 @@ if (element__btn___2) {
 // BLOCK SWITCHING END
 
 // SCROLLDOWN
-(function ($) {
-    $(document).ready(
-        function () {
-            $("body").niceScroll({
-                cursorwidth: "10px",
-                scrollspeed: 60,
-                autohidemode: true,
-                background: 'transparent',
-                hidecursordelay: 400,
-                enablekeyboard: true,
-                horizrailenabled: true,
-                bouncescroll: false,
-                smoothscroll: true,
-                iframeautoresize: true,
-                touchbehavior: false,
-                zindex: 999,
-                overflowx:false
-            });
-        }
-    );
-})(jQuery);
+// (function ($) {
+//     $(document).ready(
+//         function () {
+//             $("body").niceScroll({
+//                 cursorwidth: "10px",
+//                 scrollspeed: 60,
+//                 autohidemode: true,
+//                 background: 'transparent',
+//                 hidecursordelay: 400,
+//                 enablekeyboard: true,
+//                 horizrailenabled: true,
+//                 bouncescroll: false,
+//                 smoothscroll: true,
+//                 iframeautoresize: true,
+//                 touchbehavior: false,
+//                 zindex: 999,
+//                 overflowx:false
+//             });
+//         }
+//     );
+// })(jQuery);
 // fakeloader initialization
 $(document).ready(function () {
     $.fakeLoader({
