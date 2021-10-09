@@ -1,0 +1,10 @@
+body {
+    overflow-x: hidden !important;
+    position: relative;
+}
+
+.ball {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.7;
+}
