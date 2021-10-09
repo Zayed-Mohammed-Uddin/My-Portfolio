@@ -134,7 +134,8 @@ if (element__btn___2) {
                 smoothscroll: true,
                 iframeautoresize: true,
                 touchbehavior: false,
-                zindex: 999
+                zindex: 999,
+                overflowy:false
             });
         }
     );
