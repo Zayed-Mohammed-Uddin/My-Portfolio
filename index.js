@@ -134,6 +134,7 @@ $("html").niceScroll({
     smoothscroll: true
 });
 $("html").css({"overflow-x":"hidden"});
+$("html").css({"overflow-y":"hidden"});
 // fakeloader initialization
 $(document).ready(function () {
     $.fakeLoader({
