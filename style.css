@@ -94,6 +94,48 @@ body.dark-theme {
     }
 }
 
+@media screen and (min-width:280px) and (max-width:1199.98px) {
+    .landing__page {
+        margin-bottom: 85px !important;
+    }
+
+    .about__page {
+        margin-bottom: 110px !important;
+    }
+
+    .education__courses {
+        margin-bottom: 35px !important;
+    }
+
+    .skills__page {
+        margin-bottom: 80px !important;
+    }
+
+    .qualification__page {
+        margin-bottom: 105px !important;
+    }
+
+    .services__page {
+        margin-bottom: 130px !important;
+    }
+
+    .portfolio__page {
+        margin-bottom: 115px !important;
+    }
+
+    .banner {
+        margin-bottom: 100px !important;
+    }
+
+    .testimonial {
+        margin-bottom: 105px !important;
+    }
+
+    .contact__page {
+        margin-bottom: 95px !important;
+    }
+}
+
 /* NAVBAR START */
 .main_nav {
     z-index: 900;
@@ -387,15 +429,31 @@ body.dark-theme {
     .author__details {
         margin-left: 0rem;
     }
-
-    .social-icons {
-        top: 42%;
-    }
 }
 
 @media screen and (min-width:280px) and (max-width:767.98px) {
     .social-icons {
         display: none;
+    }
+}
+
+@media screen and (min-width:767.98px) and (max-width:991.98px) {
+    .social-icons {
+        top: 42%;
+    }
+}
+
+@media screen and (min-width:991.98px) and (max-width:1199.98px) {
+    .main__wrapper {
+        flex-direction: column-reverse !important;
+    }
+
+    .landing__page .container .row {
+        padding: 0 !important;
+    }
+
+    .social-icons {
+        top: 43.5%;
     }
 }
 
@@ -521,6 +579,16 @@ body.dark-theme {
         .author__bg img {
             width: 100% !important;
         }
+    }
+}
+
+@media screen and (min-width:991.98px) and (max-width:1199.98px) {
+    .author__intro {
+        margin-bottom: 1rem !important;
+    }
+
+    .author__accomplishments {
+        margin-bottom: 1rem !important;
     }
 }
 
@@ -1467,6 +1535,12 @@ mark {
 
 .banner__content {
     padding: 0px 65px;
+}
+
+@media screen and (min-width:991.98px) and (max-width:1199.98px) {
+    .banner__content {
+        padding: 0px 30px;
+    }
 }
 
 .banner__img img {
