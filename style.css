@@ -75,8 +75,8 @@ body.dark-theme {
     opacity: 0.65;
 }
 
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:469.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:469.98px) {
         .modal-body .modal-customized {
             flex-direction: column !important;
         }
@@ -94,7 +94,7 @@ body.dark-theme {
     }
 }
 
-@media screen and (min-width:280px) and (max-width:1199.98px) {
+@media screen and (min-width:279.98px) and (max-width:1199.98px) {
     .landing__page {
         margin-bottom: 85px !important;
     }
@@ -395,8 +395,8 @@ body.dark-theme {
 }
 
 /* SECTION-1 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .author__heading h1 {
             font-size: 30px !important;
         }
@@ -431,7 +431,7 @@ body.dark-theme {
     }
 }
 
-@media screen and (min-width:280px) and (max-width:767.98px) {
+@media screen and (min-width:279.98px) and (max-width:767.98px) {
     .social-icons {
         display: none;
     }
@@ -457,7 +457,7 @@ body.dark-theme {
     }
 }
 
-@media screen and (min-width:280px) and (max-width:1399.98px) {
+@media screen and (min-width:279.98px) and (max-width:1399.98px) {
     .author__image::after {
         display: none;
     }
@@ -533,8 +533,8 @@ body.dark-theme {
 }
 
 /* SECTION-2 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .about__heading h1 {
             font-size: 30px !important;
         }
@@ -681,8 +681,8 @@ body.dark-theme {
 }
 
 /* SECTION-3 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .education__heading h1 {
             font-size: 30px !important;
         }
@@ -784,8 +784,8 @@ body.dark-theme {
 } */
 
 /* SECTION-4 MEDIA QUERY START  */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .skills__page__heading h1 {
             font-size: 30px !important;
         }
@@ -845,11 +845,12 @@ body.dark-theme {
     font-size: 20px;
     border-color: var(--primaryColor);
     color: var(--primaryColor);
+    text-align: center !important;
 }
 
 .btn__edu i,
 .btn__work i {
-    font-size: 25px;
+    font-size: 20px;
     color: var(--primaryColor);
 }
 
@@ -945,8 +946,8 @@ body.dark-theme {
 }
 
 /* SECTION-5 MEDIA QUERY START  */
-@media screen and (min-width:280px) and (max-width:767.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:767.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .qualification__heading h1 {
             font-size: 30px !important;
         }
@@ -1173,6 +1174,35 @@ body.dark-theme {
     }
 }
 
+@media screen and (min-width:279.98px) and (max-width:369.98px) {
+    .toast {
+        right: 0px !important;
+    }
+}
+
+@media screen and (min-width:299.98px) and (max-width:369.98px) {
+    .btn__edu {
+        margin-right: 1rem !important;
+    }
+
+    .btn__edu,
+    .btn__work {
+        font-size: 15px !important;
+    }
+
+    .qualification__grid h5 {
+        font-size: 18px;
+    }
+
+    .qualification__grid p {
+        font-size: 15px;
+    }
+
+    .qualification__grid span {
+        font-size: 15px;
+    }
+}
+
 @media screen and (min-width:767.98px) and (max-width:991.98px) {
     .qualification__block {
         width: 100% !important;
@@ -1392,8 +1422,8 @@ mark {
 }
 
 /* SECTION-6 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .services__heading h1 {
             font-size: 30px !important;
         }
@@ -1478,8 +1508,8 @@ mark {
 }
 
 /* SECTION-7 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .portfolio__heading h1 {
             font-size: 30px !important;
         }
@@ -1505,7 +1535,7 @@ mark {
     }
 }
 
-@media screen and (min-width:280px) and (max-width:1199.98px) {
+@media screen and (min-width:279.98px) and (max-width:1199.98px) {
     .project__img center img {
         margin-bottom: 3rem;
     }
@@ -1560,8 +1590,8 @@ mark {
 }
 
 /* SECTION-8 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .banner__content {
             padding: 35px 0px !important;
         }
@@ -1655,8 +1685,8 @@ mark {
 }
 
 /* SECTION-9 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .testimonial__heading h1 {
             font-size: 30px !important;
         }
@@ -1679,7 +1709,7 @@ mark {
         font-size: 40px;
     }
 
-    @media screen and (min-width: 280px) and (max-width: 400px) {
+    @media screen and (min-width: 279.98px) and (max-width: 400px) {
         .testimonial__rating {
             position: absolute;
             bottom: 0;
@@ -1741,8 +1771,8 @@ mark {
 }
 
 /* SECTION-10 MEDIA QUERY START */
-@media screen and (min-width: 280px) and (max-width: 991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width: 279.98px) and (max-width: 991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .contact__heading h1 {
             font-size: 30px !important;
         }
@@ -1795,8 +1825,8 @@ mark {
 }
 
 /* SECTION-11 MEDIA QUERY START */
-@media screen and (min-width:280px) and (max-width:991.98px) {
-    @media screen and (min-width:280px) and (max-width:299.98px) {
+@media screen and (min-width:279.98px) and (max-width:991.98px) {
+    @media screen and (min-width:279.98px) and (max-width:299.98px) {
         .footer__logo h1 {
             font-size: 30px !important;
         }
