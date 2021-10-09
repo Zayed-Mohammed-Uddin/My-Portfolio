@@ -125,7 +125,13 @@ $("html").niceScroll({
     cursorborderradius: "6px", // border radius in pixel for cursor
     scrollspeed: 60, // scrolling speed
     mousescrollstep: 40, // scrolling speed with mouse wheel (pixel)
-    horizrailenabled:false
+    horizrailenabled: false,
+    emulatetouch: false, // enable cursor-drag scrolling like touch devices in desktop computer
+    hwacceleration: true,
+    enabletranslate3d: true, // nicescroll can use css translate to scroll content
+    enablemousewheel: true, // nicescroll can manage mouse wheel events
+    enablekeyboard: true, // nicescroll can manage keyboard events
+    smoothscroll: true
 });
 $("html").css({"overflow-x":"hidden"});
 // fakeloader initialization
