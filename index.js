@@ -124,7 +124,7 @@ if (element__btn___2) {
                 cursorborder: "0px solid hsl(250, 69%, 61%)",
                 scrollspeed: 60,
                 autohidemode: true,
-                background: '#ddd',
+                background: '#fff',
                 hidecursordelay: 400,
                 cursorfixedheight: false,
                 cursorminheight: 20,
