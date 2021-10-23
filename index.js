@@ -148,7 +148,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     setTimeout(function () {
         $('#myModal').modal('show');
-    }, 30000);
+    }, 20000);
 });
 $("#closebutton").click(function () {
     $('.modal-backdrop').remove();
@@ -157,7 +157,7 @@ $("#closebutton").click(function () {
 $(document).ready(function () {
     setTimeout(function () {
         $('#cookie_modal').modal('show');
-    }, 15000);
+    }, 9500);
 });
 $("#ok__btn").click(function () {
     $('.modal-backdrop').remove();
