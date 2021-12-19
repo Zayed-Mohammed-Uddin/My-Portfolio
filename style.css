@@ -15,10 +15,12 @@
     --text-white-color: #000;
     --text-color: #757575;
 }
+
 html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -349,10 +351,10 @@ body.dark-theme {
     content: '';
     position: absolute;
     width: 1.5px;
-    height: 41%;
+    height: 30%;
     background: #75757585 !important;
     right: 6px;
-    top: 80%;
+    top: 88%;
 }
 
 .author__image img {
