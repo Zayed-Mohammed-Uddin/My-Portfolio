@@ -931,10 +931,10 @@ body.dark-theme {
     content: '';
     position: absolute;
     width: 2px;
-    height: 135px;
+    height: 165px;
     background-color: #757575 !important;
     right: 0%;
-    top: 15%;
+    top: 11.5%;
 }
 
 #ed__block__4::after,
